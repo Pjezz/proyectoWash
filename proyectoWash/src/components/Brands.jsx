@@ -7,18 +7,18 @@ function Brands() {
                 <span> Servicio y refacciones para carros mezcladores y molinos principales </span>
                 <span>marcas del mercado</span>
              </p>
-            <div class="pill-container">
+            <div className="pill-container">
                 <p>
-                    <div class="pill"><span class="rombo">◆</span>TRIOLET</div>
-                    <div class="pill"><span class="rombo">◆</span> ROTOMIX</div>
-                    <div class="pill"><span class="rombo">◆</span>KIRBYMEX</div>
-                    <div class="pill"><span class="rombo">◆</span>TORMEX</div>
-                    <div class="pill"><span class="rombo">◆</span>SUPER STAR</div>
-                    <div class="pill"><span class="rombo">◆</span>HAYBUSTER</div>
-                    <div class="pill"><span class="rombo">◆</span>FARMHAND</div>
+                    <div className="pill"><span className="rombo">◆</span>TRIOLET</div>
+                    <div className="pill"><span className="rombo">◆</span> ROTOMIX</div>
+                    <div className="pill"><span className="rombo">◆</span>KIRBYMEX</div>
+                    <div className="pill"><span className="rombo">◆</span>TORMEX</div>
+                    <div className="pill"><span className="rombo">◆</span>SUPER STAR</div>
+                    <div className="pill"><span className="rombo">◆</span>HAYBUSTER</div>
+                    <div className="pill"><span className="rombo">◆</span>FARMHAND</div>
                 </p>
                 <p>
-                    <div class="pill"><span class="rombo">◆</span>JONES MFG</div>
+                    <div className="pill"><span className="rombo">◆</span>JONES MFG</div>
                 </p>
              </div>
 
