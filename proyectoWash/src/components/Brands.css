@@ -1,29 +1,40 @@
 .brands{
     height: 300px; /*esto cambienlo a auto cuando terminen*/
     border-bottom: 1px solid var(--line); /*esto dejenlo asi, no le muevan, son los separadores de cada seccion*/
+    padding: 40px 20px;
+    text-align: center;
 
+}
+
+.header-info{
+    margin-bottom: 15px;
+    font-family: var(--text-font);
+    color: #989793;
 }
 
 .pill{
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    gap: 8px;
-    padding: 8px 20px;
-    background-color: #d8d8d8;
-    border: 1px solid #b9b9b9;
+    gap: 4px;
+    padding: 8px 10px;
+    background-color: #f4f5ef;
+    border: 1px solid #b8adad;
     border-radius: 50px;
     font-family: sans-serif;
     font-weight: bold;
-    color: #333;
+    color: #3f403b;
     font-size: 14px;
 }
 
 .pill-container{
     display: flex;
     flex-wrap: wrap;
-    gap: 12px;
+    justify-content: center;
+    gap: 15px;
+    max-width: 800px;
     padding: 20px;
+    margin: auto;
 }
 
 .rombo{
