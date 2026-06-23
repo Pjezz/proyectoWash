@@ -3,6 +3,7 @@ import NavBar from "./components/NavBar";
 import Info from "./components/Info";
 import Brands from './components/Brands';
 import Todo from './components/Todo';
+import Sale from './components/Sale';
 
 function App() {
   
@@ -20,6 +21,9 @@ function App() {
     </section>
     <section>
       <Todo/>
+    </section>
+    <section>
+      <Sale/>
     </section>
   </div>
   );
