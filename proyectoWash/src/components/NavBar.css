@@ -1,0 +1,72 @@
+
+@import './Styles.css';
+* {
+    margin: 0;
+    padding: auto;
+    box-sizing: border-box;
+}
+
+
+.NavBar {
+    background-color: var(--paper);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+    gap: 20px;
+    padding: 5px 175px;
+    font-family: var(--display);
+    font-size: 15px;
+    backdrop-filter: blur(10px);
+}
+
+.NavBar .logo{
+  width: 160px;       /* o % para que sea responsive */
+  height: auto;
+  max-width: 100%;    /* evita que se desborde del contenedor */
+
+}
+
+.NavBar a{
+    color: black;
+    text-decoration: none;
+}
+
+
+.NavBar li{
+    display: flex;
+    list-style: none;
+    font-weight: 500;
+}
+
+.NavBar li button {
+    background-color: transparent;
+    color: var(--ink);
+    border: 1px solid var(--line);
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: var(--display);
+    font-weight: 500;
+}
+
+.NavBar .lastBottom{
+    background-color: var(--oxblood);
+    color: var(--paper);
+}
+
+.NavBar .car {
+  width: 15px;       /* o % para que sea responsive */
+  height: auto;
+  max-width: 100%;
+}
+
+.NavBar .boton_aux{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 15px;
+    padding-left: 60px;
+}
+
+

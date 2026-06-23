@@ -1,0 +1,137 @@
+.hero{
+    background-image: url('./public/mixer-hero.jpg');
+    background-size: cover;      /* cubre todo el contenedor */
+    background-position: center; /* centra la imagen */
+    background-repeat: no-repeat; /* evita que se repita */
+    height: auto;
+    
+}
+
+
+.barra{
+    background: rgba(0, 0, 0, 0.292);
+    backdrop-filter: blur(2px);
+    
+}
+
+.info{
+    padding-left: 195px;
+    padding-right: 195px;
+    padding-top: 50px;
+    
+    
+}
+
+.barra .local {
+    color: var(--sand);
+    font-size: 13px;
+    text-align: left;
+    font-family: var(--text-font);
+    font-weight: 500;
+    margin-bottom: 12px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+.barra span {
+    color: var(--white);
+    font-size: 90px;
+    text-align: left;
+    font-family: var(--display);
+    font-weight: 800;
+    display: block;   
+    line-height: 0.9;
+}
+
+.barra span.third {
+    color: var(--sand-soft);
+}
+
+.barra p span {
+    color: var(--paper-2);
+    font-size: 22px;
+    text-align: left;
+    font-family: var(--text-font);
+    font-weight: 400;
+    padding-right: 250px;
+    line-height: 35px;
+}
+
+.barra p {
+    margin-top: 20px;
+}
+
+.info-button{
+    padding-bottom: 50px;
+    
+}
+
+.separador{
+    padding-bottom: 15px;
+    border-top: 1px solid var(--steel-2);
+}
+
+
+button.date {
+    background-color: var(--oxblood);
+    color: var(--white);
+    padding: 15px 30px;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+    font-family: var(--display);
+    font-weight: 500;
+    margin-top: 32px;
+    margin-right: 20px;
+    font-size: 18px;
+}
+
+button.works {
+    background-color: transparent;
+    color: var(--white);
+    border: 1px solid var(--steel-2);
+    padding: 15px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: var(--display);
+    font-weight: 500;
+    margin-top: 20px;
+    font-size: 18px;
+    
+}
+
+.info-container{
+    display: flex;
+    justify-content: left;
+    gap: 20px;
+    padding-bottom: 150px;
+    padding-top: 25px;
+
+}
+
+.info-2 {
+    position: relative;
+    min-width: 250px;
+    line-height: 3px;
+}
+
+.object {
+    color: var(--white);
+    font-size: 15px;
+    font-weight: 900;
+    margin: 0 0 8px 0;
+    font-family: var(--display);
+    
+}
+
+
+.p-object {
+    color: var(--steel-light);
+    margin: 0;
+    font-size: 14px;
+    font-family: var(--text-font);
+
+}
+
+
+

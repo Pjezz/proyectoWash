@@ -1,0 +1,51 @@
+:root {
+  /* Brand */
+  --oxblood:        #8B2635;
+  --oxblood-deep:   #6E1C28;
+  --oxblood-soft:   #A8404E;
+  --brand-red:      #C42A2C;   /* logo red — accents only */
+  --brand-gold:     #E9B824;   /* logo gold — spark accents, very sparing */
+
+  /* Neutrals */
+  --ink:            #211F1D;
+  --ink-2:          #2C2A27;
+  --steel:          #5D5C52;
+  --steel-2:        #75736A;
+  --steel-light:    #9C9A90;
+  --sand:           #C5B291;
+  --sand-soft:      #D9CCB3;
+  --sand-pale:      #E7DDCB;
+  --paper:          #F5F5F0;
+  --paper-2:        #EDEBE3;
+  --paper-3:        #E4E1D6;
+  --white:          #FFFFFF;
+  --line:           #D8D5C9;
+  --line-soft:      #E5E2D8;
+
+  /* Semantic */
+  --bg:             var(--paper);
+  --text:           var(--ink);
+  --muted:          var(--steel);
+  --accent:         var(--oxblood);
+
+  /* Type */
+  --display: 'Work Sans', system-ui, sans-serif;
+  --text-font: 'Manrope', system-ui, sans-serif;
+
+  /* Rhythm */
+  --maxw: 1240px;
+  --gut: clamp(20px, 5vw, 64px);
+  --radius: 4px;
+  --radius-lg: 8px;
+
+  --shadow-sm: 0 1px 2px rgba(33,31,29,.06), 0 2px 8px rgba(33,31,29,.05);
+  --shadow-md: 0 6px 24px rgba(33,31,29,.10), 0 2px 6px rgba(33,31,29,.06);
+  --shadow-lg: 0 20px 60px rgba(33,31,29,.18), 0 6px 18px rgba(33,31,29,.10);
+
+  --ease: cubic-bezier(.22,.61,.36,1);
+
+  /* hero photo color-grade (per theme) */
+  --hero-tint-a: rgba(110,28,40,.42);
+  --hero-tint-b: rgba(33,31,29,.30);
+  --hero-grade: rgba(139,38,53,.20);
+}
