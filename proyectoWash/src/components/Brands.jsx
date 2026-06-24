@@ -2,7 +2,7 @@ import './Brands.css';
 function Brands() {
     return (
         <section className="brands">
-            <div class="header-info">
+            <div className="header-info">
                 <h3>━━ Trabajamos todas las marcas</h3>
                 <p>Servicio de refacciones para carros mezcladores y molinos de las principales marcas del mercado</p>
             </div> 
