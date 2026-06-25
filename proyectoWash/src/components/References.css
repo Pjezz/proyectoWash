@@ -1,0 +1,61 @@
+.references{
+    height: 300px; /*esto cambienlo a auto cuando terminen*/
+    border-bottom: 1px solid var(--line); /*esto dejenlo asi, no le muevan, son los separadores de cada seccion*/
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.collage-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 180px;
+    gap: 15px;
+    padding: 20px;
+    width: 100%;
+    max-width: 1200px;
+    box-sizing: border-box;
+}
+
+.col-span-2{
+    grid-column: span 2;
+}
+
+.row-span-2{
+    grid-row: span 2;
+}
+
+.img-container{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    border-radius: 15px;
+    border: 1px solid rgb(225, 255, 255, 0.1);
+}
+
+.img-container img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    opacity: 0.4;
+}
+
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    box-sizing: border-box;
+    z-index: 2;
+    color: #ffffff;
+}
+
+.overlay center{
+
+}

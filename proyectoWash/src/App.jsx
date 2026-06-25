@@ -4,6 +4,7 @@ import Info from "./components/Info";
 import Brands from './components/Brands';
 import Todo from './components/Todo';
 import Sale from './components/Sale';
+import References from './components/References';
 
 function App() {
   
@@ -21,6 +22,9 @@ function App() {
     </section>
     <section>
       <Todo/>
+    </section>
+    <section>
+      <References/>
     </section>
     <section>
       <Sale/>
