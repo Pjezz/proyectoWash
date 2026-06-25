@@ -5,6 +5,7 @@ import Brands from './components/Brands';
 import Todo from './components/Todo';
 import Sale from './components/Sale';
 import References from './components/References';
+import Specialist from './components/Specialist';
 
 function App() {
   
@@ -29,8 +30,11 @@ function App() {
     <section>
       <References/>
     </section>
+    <section>
+      <Specialist/>
+    </section>
   </div>
   );
 }
 
-export default App
+export default App;

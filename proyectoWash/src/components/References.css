@@ -1,6 +1,5 @@
 .references{
-    height: 300px; /*esto cambienlo a auto cuando terminen*/
-    border-bottom: 1px solid var(--line); /*esto dejenlo asi, no le muevan, son los separadores de cada seccion*/
+    height: auto; /*esto cambienlo a auto cuando terminen*/
     padding: 40px 20px;
     text-align: center;
 }
@@ -57,5 +56,5 @@
 }
 
 .overlay center{
-
+    display: flex;
 }
