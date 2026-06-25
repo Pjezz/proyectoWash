@@ -24,10 +24,10 @@ function App() {
       <Todo/>
     </section>
     <section>
-      <References/>
+      <Sale/>
     </section>
     <section>
-      <Sale/>
+      <References/>
     </section>
   </div>
   );
