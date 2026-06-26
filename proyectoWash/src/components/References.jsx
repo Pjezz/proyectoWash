@@ -1,66 +1,30 @@
-import "./References.css"
-function References(){
-    return(
+import "./References.css";
+
+function References() {
+    return (
         <section className="references">
-            <div className="collage-container">
-                <div className="img-container col-span-2">
-                    <div className="overlay">
-                        <span className="tag">CARROS MEZCLADORES</span>
-                        <h2>Carro mezclador en operación</h2>
-                    </div>
-                    <img src="./mixer-hero.jpg" alt="Carro mezclador en operación" />
-                </div>
-
-                <div className="img-container row-span-2">
-                    <div className="overlay center">
-                        <h2>Sinfín helicoidal</h2>
-                    </div>
-                    <img src="./mixer-hero.jpg" alt="Sinfín helicoidal" />
-                </div>
-
-                <div className="img-container">
-                    <div className="overlay center">
-                        <h2>Reparación en taller</h2>
-                    </div>
-                    <img src="./mixer-hero.jpg" alt="Reparación en taller" />
-                </div>
-
-                <div className="img-container">
-                    <div className="overlay center">
-                        <h2>Transmisión y engranes</h2>
-                    </div>
-                    <img src="./mixer-hero.jpg" alt="Transmisión y engranes" />
-                </div>
-
-                <div className="img-container">
-                    <div className="overlay center">
-                        <h2>Maquinaria en campo</h2>
-                    </div>
-                    <img src="./mixer-hero.jpg" alt="Maquinaria en campo" />
-                </div>
-
-                <div className="img-container row-span-2">
-                    <div className="overlay center">
-                        <h2>Banco de trabajo</h2>
-                    </div>
-                    <img src="./mixer-hero.jpg" alt="Banco de trabajo" />
-                </div>
-
-                <div className="img-container">
-                    <div className="overlay center">
-                        <h2>Maquinado de pieza</h2>
-                    </div>
-                    <img src="./mixer-hero.jpg" alt="Maquinado de pieza" />
-                </div>
-
-                <div className="img-container">
-                    <div className="overlay center">
-                        <h2>Forraje y ensilaje</h2>
-                    </div>
-                    <img src="./mixer-hero.jpg" alt="Forraje y ensilaje" />
-                </div>
+            <div className="header">
+                <h3>━━Nuestro Trabajo</h3>
+                <h1>Trabajos y referencias</h1>
+                <p>Carros mezcladores, molinos y refacciones.</p>
             </div>
-
+            <div className="pill-container1">
+                <div className="pill1">Todos</div>
+                <div className="pill1">Carros mezcladores</div>
+                <div className="pill1">Refacciones</div>
+                <div className="pill1">En taller</div>
+                <div className="pill1">En campo</div>
+            </div>
+            <div className="collage-container">
+                <div className="img-container grande"><img src="./mixer-hero.jpg" /></div> {/* A */}
+                <div className="img-container vertical"><img src="./mixer-hero.jpg" /></div> {/* B */}
+                <div className="img-container"><img src="./mixer-hero.jpg" /></div>        {/* C */}
+                <div className="img-container horizontal"><img src="./mixer-hero.jpg" /></div> {/* D */}
+                <div className="img-container vertical"><img src="./mixer-hero.jpg" /></div> {/* E */}
+                <div className="img-container pequeno"><img src="./mixer-hero.jpg" /></div>        {/* F */}
+                <div className="img-container"><img src="./mixer-hero.jpg" /></div>        {/* G */}
+                <div className="img-container"><img src="./mixer-hero.jpg" /></div>        {/* H */}
+            </div>
         </section>
     );
 }
