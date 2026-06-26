@@ -1,4 +1,6 @@
 import './Sale.css';
+import {products} from '../data/products';
+
 function Sale(){
     return(
         <section className="sale">
@@ -22,200 +24,33 @@ function Sale(){
             </div>
             
             <section className="shop">
-                <div className="card">
+                {products.map(producto =>(
+                    
+                <div className="card" key={producto.id}>
                     <div className="img-card">
-                        <img src="./public/mixer-hero.jpg" alt="item"></img>
+                        <img src={producto.imagen} alt={producto.titulo}></img>
                     </div>
                     <div className="info-card">
-                        <h3>Sistema de corte</h3>
-                        <h2>Navajas triangulares de tungsteno</h2>
-                        <p>Navajas triangulares de tungsteno para carros mezcladores. Corte duradero y alta resistencia al desgaste.</p>
+                        <h3>{producto.categoria}</h3>
+                        <h2>{producto.titulo}</h2>
+                        <p>{producto.descripcion}</p>
 
                         <div className="caracteristics">
-                            <p>Tungsteno</p>
-                            <p>Triangular</p>
-                            <p>Larga vida</p>
+                            {producto.tags.map(tag =>(
+                                <p key={tag}> {tag} </p>
+                            ))}
                         </div>
 
                         <div className="separador-card"></div>
                         <div className="price">
-                            <p className="price-p">desde</p>
-                            <h3 className="price-h3">$450</h3>
-                            <button className="price-button">Comprar</button>
+                            <p className="price-p">{producto.etiquetaPrecio}</p>
+                            <h3 className="price-h3">{producto.precio}</h3>
+                            <button className="price-button">{producto.boton}</button>
                         </div>
                     </div>
-
                 </div>
-
-            </section>
-
-            <section className="shop">
-                <div className="card">
-                    <div className="img-card">
-                        <img src="./public/mixer-hero.jpg" alt="item"></img>
-                    </div>
-                    <div className="info-card">
-                        <h3>Sistema de corte</h3>
-                        <h2>Navajas triangulares de tungsteno</h2>
-                        <p>Navajas triangulares de tungsteno para carros mezcladores. Corte duradero y alta resistencia al desgaste.</p>
-
-                        <div className="caracteristics">
-                            <p>Tungsteno</p>
-                            <p>Triangular</p>
-                            <p>Larga vida</p>
-                        </div>
-
-                        <div className="separador-card"></div>
-                        <div className="price">
-                            <p className="price-p">desde</p>
-                            <h3 className="price-h3">$450</h3>
-                            <button className="price-button">Comprar</button>
-                        </div>
-                    </div>
-
-                </div>
-
-            </section>
-
-            <section className="shop">
-                <div className="card">
-                    <div className="img-card">
-                        <img src="./public/mixer-hero.jpg" alt="item"></img>
-                    </div>
-                    <div className="info-card">
-                        <h3>Sistema de corte</h3>
-                        <h2>Navajas triangulares de tungsteno</h2>
-                        <p>Navajas triangulares de tungsteno para carros mezcladores. Corte duradero y alta resistencia al desgaste.</p>
-
-                        <div className="caracteristics">
-                            <p>Tungsteno</p>
-                            <p>Triangular</p>
-                            <p>Larga vida</p>
-                        </div>
-
-                        <div className="separador-card"></div>
-                        <div className="price">
-                            <p className="price-p">desde</p>
-                            <h3 className="price-h3">$450</h3>
-                            <button className="price-button">Comprar</button>
-                        </div>
-                    </div>
-
-                </div>
-
-            </section>
-
-            <section className="shop">
-                <div className="card">
-                    <div className="img-card">
-                        <img src="./public/mixer-hero.jpg" alt="item"></img>
-                    </div>
-                    <div className="info-card">
-                        <h3>Sistema de corte</h3>
-                        <h2>Navajas triangulares de tungsteno</h2>
-                        <p>Navajas triangulares de tungsteno para carros mezcladores. Corte duradero y alta resistencia al desgaste.</p>
-
-                        <div className="caracteristics">
-                            <p>Tungsteno</p>
-                            <p>Triangular</p>
-                            <p>Larga vida</p>
-                        </div>
-
-                        <div className="separador-card"></div>
-                        <div className="price">
-                            <p className="price-p">desde</p>
-                            <h3 className="price-h3">$450</h3>
-                            <button className="price-button">Comprar</button>
-                        </div>
-                    </div>
-
-                </div>
-
-            </section>
-
-            <section className="shop">
-                <div className="card">
-                    <div className="img-card">
-                        <img src="./public/mixer-hero.jpg" alt="item"></img>
-                    </div>
-                    <div className="info-card">
-                        <h3>Sistema de corte</h3>
-                        <h2>Navajas triangulares de tungsteno</h2>
-                        <p>Navajas triangulares de tungsteno para carros mezcladores. Corte duradero y alta resistencia al desgaste.</p>
-
-                        <div className="caracteristics">
-                            <p>Tungsteno</p>
-                            <p>Triangular</p>
-                            <p>Larga vida</p>
-                        </div>
-
-                        <div className="separador-card"></div>
-                        <div className="price">
-                            <p className="price-p">desde</p>
-                            <h3 className="price-h3">$450</h3>
-                            <button className="price-button">Comprar</button>
-                        </div>
-                    </div>
-
-                </div>
-
-            </section>
-
-            <section className="shop">
-                <div className="card">
-                    <div className="img-card">
-                        <img src="./public/mixer-hero.jpg" alt="item"></img>
-                    </div>
-                    <div className="info-card">
-                        <h3>Sistema de corte</h3>
-                        <h2>Navajas triangulares de tungsteno</h2>
-                        <p>Navajas triangulares de tungsteno para carros mezcladores. Corte duradero y alta resistencia al desgaste.</p>
-
-                        <div className="caracteristics">
-                            <p>Tungsteno</p>
-                            <p>Triangular</p>
-                            <p>Larga vida</p>
-                        </div>
-
-                        <div className="separador-card"></div>
-                        <div className="price">
-                            <p className="price-p">desde</p>
-                            <h3 className="price-h3">$450</h3>
-                            <button className="price-button">Comprar</button>
-                        </div>
-                    </div>
-
-                </div>
-
-            </section>
-
-            <section className="shop">
-                <div className="card">
-                    <div className="img-card">
-                        <img src="./public/mixer-hero.jpg" alt="item"></img>
-                    </div>
-                    <div className="info-card">
-                        <h3>Sistema de corte</h3>
-                        <h2>Navajas triangulares de tungsteno</h2>
-                        <p>Navajas triangulares de tungsteno para carros mezcladores. Corte duradero y alta resistencia al desgaste.</p>
-
-                        <div className="caracteristics">
-                            <p>Tungsteno</p>
-                            <p>Triangular</p>
-                            <p>Larga vida</p>
-                        </div>
-
-                        <div className="separador-card"></div>
-                        
-                        <div className="price">
-                            <p className="price-p">desde</p>
-                            <h3 className="price-h3">$450</h3>
-                            <button className="price-button">Comprar</button>
-                        </div>
-                    </div>
-
-                </div>
-
+                ))}
+                
             </section>
 
             <div className="alert">
