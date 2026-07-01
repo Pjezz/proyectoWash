@@ -1,5 +1,5 @@
 .hero{
-    background-image: url('./public/mixer-hero.jpg');
+    background-image: url('/mixer-hero.jpg');
     background-size: cover;      /* cubre todo el contenedor */
     background-position: center; /* centra la imagen */
     background-repeat: no-repeat; /* evita que se repita */

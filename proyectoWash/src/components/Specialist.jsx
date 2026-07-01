@@ -5,9 +5,9 @@ function Specialist() {
     return(
         <section className="specialist">
         <div className="specialist-image">
-            <img src="./mixer-hero.jpg" alt="Forraje y ensilaje"/>
+            <img src="/mixer-hero.jpg" alt="Forraje y ensilaje"/>
         </div>
-    <section className="count">
+    <section className="count"> 
         <div className="specialist-info">
             <h3>- ¿Por que valdo's welding?</h3>
             <h2>Especialistas en equipo de mezclado</h2>

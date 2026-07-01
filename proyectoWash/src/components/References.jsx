@@ -16,14 +16,14 @@ function References() {
                 <div className="pill1">En campo</div>
             </div>
             <div className="collage-container">
-                <div className="img-container grande"><img src="./mixer-hero.jpg" /></div> {/* A */}
-                <div className="img-container vertical"><img src="./mixer-hero.jpg" /></div> {/* B */}
-                <div className="img-container"><img src="./mixer-hero.jpg" /></div>        {/* C */}
-                <div className="img-container horizontal"><img src="./mixer-hero.jpg" /></div> {/* D */}
-                <div className="img-container vertical"><img src="./mixer-hero.jpg" /></div> {/* E */}
-                <div className="img-container pequeno"><img src="./mixer-hero.jpg" /></div>        {/* F */}
-                <div className="img-container"><img src="./mixer-hero.jpg" /></div>        {/* G */}
-                <div className="img-container"><img src="./mixer-hero.jpg" /></div>        {/* H */}
+                <div className="img-container grande"><img src="/mixer-hero.jpg" /></div> {/* A */}
+                <div className="img-container vertical"><img src="/mixer-hero.jpg" /></div> {/* B */}
+                <div className="img-container"><img src="/mixer-hero.jpg" /></div>        {/* C */}
+                <div className="img-container horizontal"><img src="/mixer-hero.jpg" /></div> {/* D */}
+                <div className="img-container vertical"><img src="/mixer-hero.jpg" /></div> {/* E */}
+                <div className="img-container pequeno"><img src="/mixer-hero.jpg" /></div>        {/* F */}
+                <div className="img-container"><img src="/mixer-hero.jpg" /></div>        {/* G */}
+                <div className="img-container"><img src="/mixer-hero.jpg" /></div>        {/* H */}
             </div>
         </section>
     );

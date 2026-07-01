@@ -55,7 +55,6 @@ function Sale(){
 
             <div className="alert">
                 <div className="noti">
-                    <img src="#" alt="alerta"></img>
                     <p>¿No ves la refacción que buscas? Fabricamos gusanos, navajas, bandas y piezas a medida. 
                         Mándanos la marca y modelo de tu carro mezclador o molino y lo cotizamos.</p>
             </div>
