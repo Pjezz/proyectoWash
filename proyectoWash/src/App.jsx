@@ -6,6 +6,7 @@ import Todo from './components/Todo';
 import Sale from './components/Sale';
 import References from './components/References';
 import Specialist from './components/Specialist';
+import Footer from './components/Footer';
 
 function App() {
   
@@ -32,6 +33,9 @@ function App() {
     </section>
     <section>
       <Specialist/>
+    </section>
+    <section>
+      <Footer/>
     </section>
   </div>
   );
