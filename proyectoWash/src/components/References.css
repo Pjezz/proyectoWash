@@ -10,6 +10,12 @@
     color: #866f5a;
 }
 
+.references-inner{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
 .header{
     display: flex;
     flex-direction: column;
@@ -17,20 +23,17 @@
     font-family: var(--display);
     font-size: 24px;
     padding-bottom: 15px;
-    padding-left:85px;
     color: #ffffff;
 }
 
 .collage-container {
-    max-width: 1200px;
-    margin: 0 auto;
     display: grid;
     /* 4 columnas fluidas */
     grid-template-columns: repeat(4, 1fr);
     /* Las filas se ajustan automáticamente a la altura de las columnas */
     grid-auto-rows: 250px; 
     gap: 20px;
-    padding: 20px;
+    padding: 20px 0;
 }
 
 .img-container {
@@ -55,9 +58,7 @@
     display: flex;
     flex-wrap: wrap;
     gap: 15px;
-    max-width: 800px;
-    padding: 20px;
-    margin: auto;
+    padding: 20px 0;
 }
 
 .pill1{
