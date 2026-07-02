@@ -15,8 +15,9 @@ function Specialist() {
             <p>No vendemos por vender. Entendemos tu carro mezclador y tu molino, te asesoramos y dejamos tu equipo trabajando como debe, año tras año.</p>
         </div>
     
+        <section className="count-container"> 
             {especialidades.map(esp =>(
-        <section className="count-esp" key={esp.id}>
+                <section className="count-esp" key={esp.id}>
         
             <div className="specialist-icon">
                 <Icon name={esp.icono} />
@@ -28,6 +29,7 @@ function Specialist() {
             </div>
         </section>
         ))}
+        </section>
 
     </section>
 

@@ -6,10 +6,17 @@
 
 }
 
-.header-info{
-    margin-bottom: 15px;
+.header-info h3{
+    margin-bottom: 10px;
+    font-family: var(--display);
+    color: var(--ink);
+}
+
+.header-info p{
     font-family: var(--text-font);
-    color: #989793;
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--steel-2);
 }
 
 .pill{
