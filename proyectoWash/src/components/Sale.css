@@ -96,8 +96,21 @@
     display: flex;
     flex-direction: column;    /* apila contenido y empuja el footer abajo */
     max-width: 360px;
-
+    transition: transform .25s ease, box-shadow .25s ease;
   }
+
+.card:hover{
+    transform: translateY(-6px);
+    box-shadow: 0 16px 30px rgba(0,0,0,.12);
+}
+
+.card .img-card img{
+    transition: transform .35s ease;
+}
+
+.card:hover .img-card img{
+    transform: scale(1.05);
+}
 
 .img-card{
     aspect-ratio: 16 / 9;
@@ -197,7 +210,12 @@
     color: var(--white);
     background-color: var(--oxblood);
     margin: 1px 15px;
+    transition: background-color .18s ease, transform .18s ease;
+  }
 
+  .price button:hover{
+    background-color: var(--ink);
+    transform: translateY(-1px);
   }
 
 
@@ -225,6 +243,3 @@
     padding: 20px;
     font-size: 15px;
 }
-
-
-

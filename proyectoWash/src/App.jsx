@@ -2,7 +2,7 @@ import './App.css'
 import NavBar from "./components/NavBar";
 import Info from "./components/Info";
 import Brands from './components/Brands';
-import Todo from './components/Todo';
+import Services from './components/Services';
 import Sale from './components/Sale';
 import References from './components/References';
 import Specialist from './components/Specialist';
@@ -23,7 +23,7 @@ function App() {
       <Brands/>
     </section>
     <section>
-      <Todo/>
+      <Services/>
     </section>
     <section>
       <Sale/>

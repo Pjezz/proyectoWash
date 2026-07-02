@@ -19,7 +19,7 @@ export const products =[
         tags: ["Vertical", "A medida",  "Balanceado"],
         etiquetaPrecio: "desde",
         precio: "$8,500",
-        boton: "cotizar",
+        boton: "Cotizar",
         imagen: "/mixer-hero.jpg",
     },
 
@@ -31,7 +31,7 @@ export const products =[
         tags: ["Vertical", "A medida",  "Balanceado"],
         etiquetaPrecio: "desde",
         precio: "$8,500",
-        boton: "cotizar",
+        boton: "Cotizar",
         imagen: "/mixer-hero.jpg",
     },
 
@@ -43,7 +43,7 @@ export const products =[
         tags: ["Vertical", "A medida",  "Balanceado"],
         etiquetaPrecio: "desde",
         precio: "$8,500",
-        boton: "cotizar",
+        boton: "Cotizar",
         imagen: "/mixer-hero.jpg",
     },
 
@@ -55,7 +55,7 @@ export const products =[
         tags: ["Vertical", "A medida",  "Balanceado"],
         etiquetaPrecio: "desde",
         precio: "$8,500",
-        boton: "cotizar",
+        boton: "Cotizar",
         imagen: "/mixer-hero.jpg",
     },
 
@@ -67,7 +67,7 @@ export const products =[
         tags: ["Vertical", "A medida",  "Balanceado"],
         etiquetaPrecio: "desde",
         precio: "$8,500",
-        boton: "cotizar",
+        boton: "Cotizar",
         imagen: "/mixer-hero.jpg",
     },
 
@@ -79,7 +79,7 @@ export const products =[
         tags: ["Vertical", "A medida",  "Balanceado"],
         etiquetaPrecio: "desde",
         precio: "$8,500",
-        boton: "cotizar",
+        boton: "Cotizar",
         imagen: "/mixer-hero.jpg",
     },
 
@@ -91,7 +91,7 @@ export const products =[
         tags: ["Vertical", "A medida",  "Balanceado"],
         etiquetaPrecio: "desde",
         precio: "$8,500",
-        boton: "cotizar",
+        boton: "Cotizar",
         imagen: "/mixer-hero.jpg",
     },
 ];

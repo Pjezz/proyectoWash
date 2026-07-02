@@ -1,5 +1,6 @@
 import './Specialist.css'
 import {especialidades} from "../data/especialidades"
+import Icon from "./Icons"
 
 function Specialist() {
     return(
@@ -18,7 +19,7 @@ function Specialist() {
         <section className="count-esp" key={esp.id}>
         
             <div className="specialist-icon">
-                <img src={esp.icono} alt={esp.icono}/>
+                <Icon name={esp.icono} />
             </div>
 
             <div className="specialist-count">
